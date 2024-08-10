@@ -295,5 +295,8 @@ display: flex;
         display: flex;
     
     }
+    #ch1{
+        margin-left:80px;
+    }
    
 }
