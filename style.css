@@ -1,0 +1,299 @@
+body{
+    background-color: black;
+}
+
+
+
+
+.container{
+    height: 500px;
+    width: 1014px;
+    background-color: rgba(255, 255, 255, 0.14);
+    display: flex;
+    border: 2px solid  rgba(255, 255, 255, 0.296);
+    border-radius: 3px;
+}
+
+
+
+
+.outer{
+    height: 300px;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 70px;
+    row-gap: 40px;
+    border-radius: 50%;
+    border: 45px solid green;
+    border-bottom: 45px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner{
+      height: 290px;
+      width: 290px;
+      border-radius: 50%;
+     border-bottom: 40px solid transparent;
+    border-top: 40px solid yellow;
+    border-right: 40px solid yellow;
+    border-left: 40px solid yellow;
+    position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+#h{
+    font-size: 70px;
+    color: yellow;
+    margin-top: 170px;
+}
+#ch{
+    font-size: 30px;
+    color:whitesmoke;
+    position: absolute;
+    margin-top: 350px;
+}
+#ch1{
+    font-size: 30px;
+    color:whitesmoke;
+    position: absolute;
+    margin-top: 365px;
+}
+#c{
+    font-size: 70px;
+    color: green;
+    margin-top: 170px;
+
+}
+#cinner{
+    border: 40px solid gray;
+    border-bottom: 40px solid transparent;
+
+}
+#couter{
+    border: 45px solid red;
+    border-bottom:  45px  solid transparent;
+  
+}
+.gh{
+    height: 500px;
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.14);
+  
+    margin-top: 10px;
+    border: 2px solid  rgba(255, 255, 255, 0.296);
+    border-radius: 3px;
+
+}
+.gh2{
+    height: 500px;
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.14);
+  
+    margin-top: 10px;
+    border: 2px solid  rgba(255, 255, 255, 0.296);
+    border-radius: 3px;
+}
+#humid{
+    color: whitesmoke;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    
+}
+
+.sixtyfour{
+    color: whitesmoke;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+#sf{
+    
+    color: whitesmoke;
+    position: absolute;
+    padding-top: 145px;
+    font-size: 20px;
+    padding-left: 70px;
+}
+#st{
+    color: whitesmoke;
+    padding-top: 195px;
+   padding-left: 75px;
+    font-size: 20px;
+    position: absolute;
+    display: flex;
+    
+}
+#stwenty{
+    color: whitesmoke;
+    padding-top: 95px;
+   padding-left: 70px;
+    font-size: 20px;
+    position: absolute;
+}
+#sthirty{
+    color: whitesmoke;
+    padding-top: 40px;
+   padding-left: 70px;
+    font-size: 20px;
+    position: absolute;
+}
+#eight{
+    color: whitesmoke;
+    padding-top: 0px;
+    font-size: 20px;
+    padding-left: 120px;
+}
+#ten{
+    color: whitesmoke;
+    padding-top: 0px;
+    font-size: 20px;
+    padding-left: 95px;
+}
+#twelve{
+    color: whitesmoke;
+    padding-top: 0px;
+    font-size: 20px;
+    padding-left: 95px;
+}
+.time{
+    display: flex;
+}
+.timer{
+    display: flex;
+}
+.horizontal{
+display: flex;
+}
+.vertical1{
+    margin-top: 20px;
+    height: 250px;
+    width: 0.5px;
+    margin-left: 140px;
+    background-color: rgba(255, 255, 255, 0.16);
+   
+}
+.vertical2{
+    margin-top: 20px;
+    height: 250px;
+    width: 0.5px;
+    margin-left: 140px;
+    background-color: rgba(255, 255, 255, 0.16);
+   
+}
+.vertical3{
+    margin-top: 20px;
+    height: 250px;
+    width: 0.5px;
+    margin-left: 140px;
+    background-color:rgba(255, 255, 255, 0.16);
+   
+}
+#first{
+    color:rgba(255, 255, 255, 0.16);
+    padding-left: 100px;
+    position: absolute;
+    padding-top: 100px;
+   
+}
+.grp{
+    display: flex;
+    gap: 10px;
+}
+
+#second{
+    color: rgba(255, 255, 255, 0.16);
+    padding-left: 100px;
+    position: absolute;
+    padding-top: 45px;
+   
+}
+#third{
+    color: rgba(255, 255, 255, 0.16);
+    padding-left: 100px;
+    position: absolute;
+    padding-top: 150px;
+}
+#fourth{
+    color: rgba(255, 255, 255, 0.16);
+    padding-left: 100px;
+    position: absolute;
+    padding-top: 200px; 
+}
+#hsf{
+    color: whitesmoke;
+    position: absolute;
+    padding-top: 40px;
+    font-size: 20px;
+    padding-left: 40px;
+}
+#hst{
+    color: whitesmoke;
+    position: absolute;
+    padding-top: 155px;
+    font-size: 20px;
+    padding-left: 40px;
+}
+.logo{
+    display: flex;
+}
+.dot{
+    height: 15px;
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 30px;
+    width: 35px;
+    background-color: yellow;
+    border-radius: 5px;
+}
+.last{
+    position: absolute;
+    padding-top: 60px;
+    padding-left: 75px;
+    color: whitesmoke;
+    font-size: 20px;
+}
+#hfirst{
+    color:rgba(255, 255, 255, 0.16);
+    padding-left: 100px;
+    position: absolute;
+    padding-top: 160px;
+   
+}
+.dotlast{
+    height: 15px;
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 30px;
+    width: 35px;
+    background-color: rgb(0, 128, 45);
+    border-radius: 5px;
+}
+@media ( max-width:400px){
+    
+    .container{
+        height: 500px;
+        width: 980px;
+    }
+    .gh2{
+        width: 520px;
+    }
+    #first{
+        padding-left: 120px;
+    }
+    #second{
+        padding-left: 120px;
+    }
+    #third{
+        padding-left: 120px;
+    }
+    #fourth{
+        padding-left: 120px;
+    }
+    #st{
+        display: flex;
+    
+    }
+   
+}
